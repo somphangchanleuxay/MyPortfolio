@@ -10,7 +10,8 @@ body{
 .nav{
     overflow: hidden;
     background: #fff;
-    margin-top: -5px;
+    margin-top: 7px;
+    height: 60px;
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -24,7 +25,7 @@ body{
     padding: 20px 16px;
     font-size: 20px;
     font-weight: 900;
-    width:140px;
+    width:170px;
     text-decoration: none;  
     font-weight: bold;
     text-transform: uppercase;
@@ -35,18 +36,66 @@ body{
     background: rgb(179, 216, 125);
     color: #fff;
     font-size: 25px;
+    border: 5px solid #000;
 }
 
 
 
 
-.Aboutme{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
+.PictureofMe  {
+    font-family:'Rajdhani', sans-serif ;
+    font-size: 16px;
+    background-color: #fff;
+    border: 5px solid rgb(179, 216, 125)  ;
     color:black;
-    background-color: #ffffff;
-    display: relative;
-    border: 10px solid greenyellow;
-    height: fit-content;
+    margin-top:50px;
+    margin-right: auto;
+    display:flex;
+    align-items: center;
+
+}
+
+.PictureofMe p {
+    margin-left: 60px;
+}
+
+img {
+    width: 310px;
+}
+
+.Aboutmelogo {
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
     margin-top: 50px;
+    margin-left: 282px;
+    max-width: 500px;
+}
+  
+.links {
+    background-color: #fff;
+    border: 2px solid rgb(179, 216, 125);
+    margin-top: 2px;
+    padding: 10px;
+    display: block;
+    color:chartreuse
+}
+
+.links a {
+    font-family: 'Courier New', Courier, monospace;
+    background: url(images/SGwallpaper.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(59, 120, 173);
+    font-weight: 200;
+    padding: 85px;
+    margin: 5px;
+    height: 100px;
+    width: 500px;
 }
