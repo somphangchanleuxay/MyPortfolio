@@ -44,32 +44,36 @@ body{
 
 .PictureofMe  {
     font-family:'Rajdhani', sans-serif ;
-    font-size: 16px;
+    font-size: 18px;
     background-color: #fff;
-    border: 5px solid rgb(179, 216, 125)  ;
+    border: 3px solid rgb(179, 216, 125)  ;
     color:black;
     margin-top:50px;
     margin-right: auto;
     display:flex;
     align-items: center;
+    margin: 10px;
 
 }
 
 .PictureofMe p {
     margin-left: 60px;
+    margin: 5px;
 }
 
 img {
     width: 310px;
+    margin:5px; 
 }
 
 .Aboutmelogo {
     background-color: #fff;
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 50px;
     margin-left: 282px;
     max-width: 500px;
@@ -77,25 +81,39 @@ img {
   
 .links {
     background-color: #fff;
-    border: 2px solid rgb(179, 216, 125);
+    border: 3px solid rgb(179, 216, 125);
     margin-top: 2px;
     padding: 10px;
-    display: block;
-    color:chartreuse
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    max-width: 100%;
+    margin: 10px;
 }
 
 .links a {
-    font-family: 'Courier New', Courier, monospace;
-    background: url(images/SGwallpaper.jpg);
+    font-family: 'Rajdhani', sans-serif;
+    background: url(images/417970.jpg);
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
     font-size: 30px;
-    color: rgb(59, 120, 173);
-    font-weight: 200;
-    padding: 85px;
+    text-align:left;
+    color: rgb(228, 228, 228);
+    padding: 80px ;
     margin: 5px;
-    height: 100px;
-    width: 500px;
+    max-width: 50%;
+    border:2px #000 solid ;
+}
+
+.links a:hover{
+    font-family: 'Rajdhani', sans-serif;
+    background: url(images/417970.jpg);
+    background-repeat: no-repeat;
+    font-size: 40px;
+    text-align:left;
+    color: rgb(228, 228, 228);
+    padding: 80px ;
+    margin: 5px;
+    max-width: 50%;
+    border:2px #000 solid ;
 }
