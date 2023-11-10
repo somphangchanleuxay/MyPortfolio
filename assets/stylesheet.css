@@ -240,7 +240,7 @@ img {
 }
 
 #contactme {
-    width: 87%;
+    width: 100%;
     height: 700px;
     display: flex;
     align-items: center;
@@ -258,7 +258,7 @@ img {
     margin-bottom: 30px;
 }
 input, textarea {
-    width: 160%;
+    width: 100%;
     padding: 10px;
     
 }
