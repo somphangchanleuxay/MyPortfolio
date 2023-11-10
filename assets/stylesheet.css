@@ -167,7 +167,9 @@ img {
     background-color: inherit;
     text-decoration: none;
     position: static;
-    color: aqua;
+    color: rgb(255, 0, 166);
+    -webkit-text-fill-color: rgba(255, 0, 225, 0.992);
+    -webkit-text-stroke: 2px #000000;
     transition-duration: 500ms;
     background-blend-mode: normal;
 }
@@ -352,6 +354,7 @@ input, textarea {
 label {
     background-color: #0000004c;
     font-size: 16px;
+    margin-top: 1px;
     color: #fff;
     font-family: 'Orbitron', sans-serif;
     width:fit-content
