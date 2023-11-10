@@ -349,6 +349,13 @@ input, textarea {
         margin-left: 8%;
     }
  
+label {
+    background-color: #0000004c;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    width:fit-content
+}
 }
 
 @media screen and (min-width: 35.5em) {
