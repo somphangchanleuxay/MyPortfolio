@@ -18,6 +18,7 @@ body{
     background: #ffffff8a;
     margin-top: 7px;
     height: 60px;
+    width:100%;
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -96,6 +97,7 @@ body{
     border-radius: 10px;
     color: #fff;
     display:flex;
+    flex-direction:column;
     margin-top:100px;
     margin-left:25%;
     align-items: center;
@@ -112,16 +114,19 @@ body{
 
 img {
     width: 310px;
-    margin:5px; 
+    margin:20px; 
+    
 }
 
 
 #Projects {
+    width:100%;
     display: flex;
     flex-direction: row;
     align-content: center;
     margin-top: 150px;
     justify-content: center;
+    margin-left: 0%;
 }
 
 .PJ1 a { 
@@ -169,7 +174,7 @@ img {
 
 .PB1 {
     color: #fff;
-    background: url(images/IMG_3855.JPG);
+    background: url(images/html5-css3.png);
     background-size: cover;
     background-blend-mode: multiply;
     background-color:#00000091;
@@ -191,7 +196,7 @@ img {
 
 .PB2 {
     color: #fff;
-    background: url(images/IMG_3920.JPG);
+    background: url(images/jsimage.png);
     background-size: cover;
     background-blend-mode: multiply;
     background-color:#00000091;
@@ -213,7 +218,7 @@ img {
 
 .PB3 {
     color: #fff;
-    background: url(images/IMG_3807.JPG);
+    background: url(images/ui-ux.jpeg);
     background-size: cover;
     background-blend-mode: multiply;
     background-color:#00000091;
@@ -235,8 +240,8 @@ img {
 }
 
 #contactme {
-    width: 100%;
-    height: 100vh;
+    width: 87%;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -253,14 +258,98 @@ img {
     margin-bottom: 30px;
 }
 input, textarea {
-    width: 100%;
+    width: 160%;
     padding: 10px;
     
 }
+.contact_me_links {
+    background-color: rgba(240, 7, 7, 0.519);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#cmicon {
+    width: 70px;
+}
+
 
 /*Media Queries*/
 
 /*Small Phones*/
+@media screen and (min-width: 0em) {
+    .headertext {
+        position: relative;
+        font-family: fantasy;
+        color:#fff;
+        margin-top: 80px;
+    }
+    
+    #Hello {
+        font-size: 93px;
+        margin-left: 115px;
+    }
+    
+    #Hello2 {
+        font-size: 71px;
+        margin-left: 68px;
+    }
+    
+    
+    .spanone {
+        font-size: 83px;
+        font-family: 'Saira Condensed', sans-serif;
+        color: #a32525c2;
+        margin-left: 37px;
+    }
+    
+    #Hello3 {
+        font-size: 81px;
+        margin-left: 194px;
+    
+    }
+    
+    #Hello4 {
+        color: #010306;
+        -webkit-text-fill-color: rgba(0, 255, 255, 0.324);
+        -webkit-text-stroke: 4px #000000;
+        font-size: 65px;
+        font-family: 'Orbitron', sans-serif;
+        margin-left: 7%;
+        margin-top: 180px;
+    }
+    
+
+    #PictureofMe {
+        font-family:'Rajdhani', sans-serif ;
+        font-size: 18px;
+        background-color: #000000e6;
+        border: 3px solid rgb(0, 0, 0)  ;
+        border-radius: 10px;
+        color: #fff;
+        display:flex;
+        margin-top:300px;
+        margin-left:25%;
+        align-items: center;
+        width:50%;
+        justify-content:center;
+
+    }
+
+    #Projects {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-top: 150px;
+        justify-content: center;
+        margin-left: 8%;
+    }
+ 
+}
 
 @media screen and (min-width: 35.5em) {
     .headertext {
@@ -277,7 +366,7 @@ input, textarea {
     
     #Hello2 {
         font-size:75px;  
-        margin-left: 400px;
+        margin-left: 274px;
     }
     
     .spanone {
@@ -300,7 +389,7 @@ input, textarea {
         -webkit-text-stroke: 4px #000000;
         font-size:82px; 
         font-family: 'Orbitron', sans-serif;
-        margin-left: 20%;
+        margin-left: 10%;
         margin-top: 180px;
     }
 
@@ -318,7 +407,18 @@ input, textarea {
         width:50%;
         justify-content:center;
 
-}
+    }
+
+    #Projects {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-top: 150px;
+        justify-content: center;
+        margin-left: 1%;
+    }
+ 
 
 }
 
@@ -376,6 +476,7 @@ input, textarea {
         border-radius: 10px;
         color: #fff;
         display:flex;
+        flex-direction: column;
         margin-top:300px;
         margin-left:25%;
         align-items: center;
@@ -383,6 +484,16 @@ input, textarea {
         justify-content:center;
 
     }
+
+    #Projects {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-top: 150px;
+        justify-content: center;
+        margin-left: 1%;
+    }
+
 }
 /*Some  Tablets & Laptops*/
 
@@ -443,6 +554,18 @@ input, textarea {
 
     }
 
+    #Projects {
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin-top: 150px;
+        justify-content: center;
+        margin-left: 1%;
+    }
+
+
+
     
 }
 
@@ -456,17 +579,17 @@ input, textarea {
         margin-top: 120px;
         }
 
-        #Hello {
+    #Hello {
         font-size:140px; 
         margin-left: 100px;
         }
 
-        #Hello2 {
+    #Hello2 {
             font-size:100px;  
             margin-left: 600px;
         }
         
-        .spanone {
+     .spanone {
             font-size:160px; 
             font-family: 'Saira Condensed', sans-serif;
             position: relative;
@@ -474,14 +597,14 @@ input, textarea {
             margin-left: 20px;
         }
         
-        #Hello3 {
+    #Hello3 {
             font-size:140px; 
             margin-left: 200px;
         
         }
         
-        #Hello4 {
-            font-size:180px; 
+    #Hello4 {
+            font-size: 116px;
             font-family: 'Orbitron', sans-serif;
             color:#010306;
             margin-left: 400px;
@@ -491,7 +614,7 @@ input, textarea {
             display:flex;
         }
         
-        #PictureofMe {
+    #PictureofMe {
             font-family:'Rajdhani', sans-serif ;
             font-size: 18px;
             background-color: #000000e6;
@@ -506,6 +629,15 @@ input, textarea {
             justify-content:center;
 
     }
+    #Projects {
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin-top: 150px;
+        margin-left: 1%;
+        justify-content: center;
+    }
 
 }
 
@@ -518,17 +650,17 @@ input, textarea {
         margin-top: 120px;
         }
 
-        #Hello {
+    #Hello {
         font-size:140px; 
         margin-left: 100px;
         }
 
-        #Hello2 {
+    #Hello2 {
             font-size:100px;  
             margin-left: 600px;
         }
         
-        .spanone {
+    .spanone {
             font-size:160px; 
             font-family: 'Saira Condensed', sans-serif;
             position: relative;
@@ -536,13 +668,13 @@ input, textarea {
             margin-left: 20px;
         }
         
-        #Hello3 {
+    #Hello3 {
             font-size:140px; 
             margin-left: 200px;
         
         }
         
-        #Hello4 {
+     #Hello4 {
             font-size:180px; 
             font-family: 'Orbitron', sans-serif;
             color:#010306;
@@ -553,7 +685,7 @@ input, textarea {
             display:flex;
         }
         
-        #PictureofMe {
+    #PictureofMe {
             font-family:'Rajdhani', sans-serif ;
             font-size: 18px;
             background-color: #000000e6;
@@ -567,6 +699,14 @@ input, textarea {
             width:50%;
             justify-content:center;
 
+    }
+    #Projects {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin-top: 150px;
+        margin-left: 1%;
+        justify-content: center;
     }
 }
 
